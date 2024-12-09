@@ -1,0 +1,59 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #333;
+    font-family: fantasy;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    background-color: papayawhip;
+    box-shadow: 20px 20px 20px #135313;
+    font-family: Georgia;
+    font-size: 1.5rem;
+    padding: 25px 25px;
+}
+
+.img-bruce {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img-caption {
+    font-size: 17px;
+    font-family: Gill Sans;
+    color: wheat;
+    margin: 10px auto;
+}
+img {
+    border-radius: 100%;
+}
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white
+}
+.title-bruce {
+    font-size: 35px;
+    color: brown;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+
+footer {
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+}
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
