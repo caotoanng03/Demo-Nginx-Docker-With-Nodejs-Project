@@ -3,7 +3,7 @@ const path = require('path')
 const app = express();
 const port = 8080;
 
-const appName = process.env.APP_NAME;
+const appName = process.env.APP_NAME || "Demo-app";
 
 app.use(express.static('public'))
 
